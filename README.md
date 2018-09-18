@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
   let customCustomCSS = `
   :root {
      /* Modify these to change your theme colors: */
-    --side-bar: #666;
+    --side-bar: lighten(#3B4048, 10%);
     --primary: #61AFEF;
     --accent: #568AF2;
     --text: #ABB2BF;
@@ -25,18 +25,18 @@ document.addEventListener("DOMContentLoaded", function() {
      
     /* These should be less important: */
     --background-hover: lighten(#3B4048, 10%);
-    --background-light: #AAA;
-    --background-bright: #FFF;
+    --background-light: #555c69;
+    --background-bright: #555c69;
 
-    --border-dim: #666;
+    --border-dim: #61AFEF;
     --border-bright: var(--primary);
 
-    --text-bright: #FFF;
+    --text-bright: #61AFEF;
     --text-dim: #555c69;
-    --text-special: #666;
-    --text-accent: #666;
+    --text-special: #61AFEF;
+    --text-accent: #61AFEF;
 
-    --scrollbar-background: #000;
+    --scrollbar-background: #3B4048;
     --scrollbar-border: var(--primary);
 
     --yellow: #fc0;
@@ -80,5 +80,4 @@ document.addEventListener("DOMContentLoaded", function() {
      });
   });
 });
-
 ```
